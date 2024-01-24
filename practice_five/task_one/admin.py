@@ -186,9 +186,11 @@ class CommentAdmin(admin.ModelAdmin):
 
 admin.site.register(TableWithResultsCoinToss)
 
+
 admin.site.register(Author, AuthorAdmin)
 admin.site.register(Article, ArticleAdmin)
 admin.site.register(Comment, CommentAdmin)
+
 
 admin.site.register(Client)
 admin.site.register(Product)
